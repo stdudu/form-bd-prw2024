@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.php">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <aside class="form.aside">
+            <div class="form-container">
+            <h2 class="chose">Imagens</h2>
+                <form class="form" action="form.php" method="post">
+                    <div class="input-group">
+                        <label for="pasta">Nome da Pasta:</label>
+                        <input type="text" name="pasta" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="numImagens">Numero de imagens:</label>
+                        <input type="number" name="numImagens" min="1" required>
+                    </div>
+                        <input class="sign" type="submit" value="Verificar >">
+                </form>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

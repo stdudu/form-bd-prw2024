@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.php">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <aside class="form.aside">
+            <div class="form-container">
+            <h2 class="chose">Historico Escolar</h2>
+                <form class="form" action="form.php" method="post">
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite o nome do aluno">
+                    </div>
+                    <div class="input-group">
+                        <label for="nota1">Nota 1</label>
+                        <input type="number" name="nota1" id="nota1" placeholder="Digite a primeira nota">
+                    </div>
+                    <div class="input-group">
+                        <label for="nota2">Nota 2</label>
+                        <input type="number" name="nota2" id="nota2" placeholder="Digite a segunda nota">
+                    </div>
+                    <div class="input-group">
+                        <label for="frequencia">Frequencia</label>
+                        <input type="number" name="frequencia" id="frequencia" placeholder="Digite a frequencia">
+                    </div>
+                    <input class="sign" type="submit" value="Calcular>">
+                </form>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

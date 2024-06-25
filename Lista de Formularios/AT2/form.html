@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.php">
+    <title>Formulário-2</title>
+</head>
+<body>
+    <main>
+        <aside class="form.aside">
+            <div class="form-container">
+                <form class="form" action="form.php" method="post">
+                    <div class="input-group">
+                        <label for="nome">Text:</label>
+                        <input type="text" name="text" id="text">
+                    </div>
+                    <div class="input-group">
+                        <label for="textarea">Text area:</label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="checkbox">Checkbox</label>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </div>
+                    <div class="input-group">
+                        <label for="radio">Radio</label>
+                        <input type="radio" name="radio" id="radio" value="radio">
+                    </div>
+                    <div class="input-group">
+                        <label for="select ">Select the option:</label>
+                        <select name="select" id="select">
+                            <option value="sul">Sul</option>
+                            <option value="sudeste">Sudeste</option>
+                            <option value="centro-oeste">Centro-Oeste</option>
+                            <option value="norte">Norte</option>
+                            <option value="nordeste">Nordeste</option>
+                        </select>
+                    </div>
+                    <input class="sign" type="submit" value="Enviar>">
+                </form>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

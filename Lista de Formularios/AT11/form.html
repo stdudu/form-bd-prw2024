@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.php">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <aside class="form.aside">
+            <div class="form-container">
+            <h2 class="chose">Carteira do aluno</h2>
+                <form class="form" action="form.php" method="post">
+                    <div class="input-group">
+                        <label for="prontuario">Prontuário</label>
+                        <input type="text" name="prontuario" id="prontuario" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="idade">Idade</label>
+                        <input type="number" name="idade" id="idade" min="15" max="75">
+                    </div>
+                    <div class="input-group">
+                        <label for="periodo">Período</label>
+                        <select name="periodo" id="periodo">
+                            <option value="v">V</option>
+                            <option value="n">N</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="modulo">Módulo</label>
+                        <select name="modulo" id="modulo" min>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                        <input class="sign" type="submit" value="Verificar >">
+                </form>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
